@@ -32,7 +32,7 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
           children: [
             Container(
               width: double.infinity,
-              height: 500,
+              height: MediaQuery.of(context).size.height * .55,
               child: PageView(
                 children: _list,
                 scrollDirection: Axis.horizontal,
